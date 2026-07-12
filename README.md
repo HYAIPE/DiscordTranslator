@@ -61,6 +61,7 @@ The content script tracks each text node's original and translated value, so Rea
 - Message text is sent to Google Translate (`translate.googleapis.com`) **solely to retrieve translations**.
 - Nothing is stored, logged, or shared beyond that request. The only persisted data is your ON/OFF preference (`chrome.storage.local`).
 - The extension runs only on `discord.com`.
+- Full policy: [PRIVACY.md](PRIVACY.md)
 
 ## ⚠️ Notes
 

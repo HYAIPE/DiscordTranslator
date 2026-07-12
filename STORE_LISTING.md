@@ -78,29 +78,42 @@ sponsored by Discord Inc. or Google LLC.
 **Single purpose description**
 
 ```
-Automatically translates Discord chat messages into English as they appear on
-discord.com.
+Automatically translates chat messages on discord.com into English in real
+time as they appear, including new incoming messages, edited messages, and
+messages loaded by scrolling back through history.
 ```
 
-**Permission justifications**
+**storage justification**
 
-| Permission | Justification |
-|---|---|
-| `storage` | Stores a single ON/OFF preference for the translation toggle. No other data is stored. |
-| Host `translate.googleapis.com` | Sends visible message text to Google Translate to retrieve translations — the extension's single core function. |
-| Content script on `discord.com` | Required to read chat messages and display their translations in place. |
+```
+Used to persist a single boolean preference (translation ON/OFF) set via the
+toolbar icon, so the user's choice is remembered across browser sessions. No
+other data is stored.
+```
+
+**Host permission justification** (`translate.googleapis.com`)
+
+```
+The extension sends the text of chat messages displayed on discord.com to
+Google's translation endpoint (translate.googleapis.com) and receives the
+translated text back. This is the extension's sole function. The host
+permission is required because Manifest V3 service workers must declare hosts
+they fetch from; no other host is contacted.
+```
 
 **Remote code:** No, I am not using remote code. (Only translation *data* is
-fetched; no external scripts are loaded or executed.)
+fetched as JSON; no external scripts or wasm are loaded or executed.)
 
 **Data usage:**
 
-- Check **"Website content"** (message text is transmitted to Google Translate
-  to provide the extension's single purpose).
-- Leave everything else unchecked (no personally identifiable information, no
-  authentication data, no location, etc.).
-- Certify: data is **not** sold, **not** used for purposes unrelated to the
-  single purpose, **not** used for creditworthiness.
+- Check **"Personal communications"** — the data sent off-device is chat
+  message text, which is Google's own example for this category (not the
+  generic "Website content" bucket).
+- Leave everything else unchecked (no PII, health, financial, authentication,
+  location, web history, or user activity data is collected).
+- Certify all three disclosures: data is **not** sold or transferred outside
+  approved use cases, **not** used for purposes unrelated to the single
+  purpose, and **not** used for creditworthiness/lending.
 
 **Privacy policy URL**
 

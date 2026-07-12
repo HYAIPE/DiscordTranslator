@@ -13,10 +13,11 @@ The extension automatically translates chat messages displayed on
 
 ## Data handled
 
-- **Message text.** The text content of messages visible in your Discord chat
-  is sent to Google's translation service (`translate.googleapis.com`) for the
-  sole purpose of retrieving a translation. This is the extension's single,
-  core function. Google's handling of that request is governed by
+- **Personal communications (chat messages).** The text content of messages
+  visible in your Discord chat is sent to Google's translation service
+  (`translate.googleapis.com`) for the sole purpose of retrieving a
+  translation. This is the extension's single, core function. Google's
+  handling of that request is governed by
   [Google's Privacy Policy](https://policies.google.com/privacy).
 - **Settings.** A single ON/OFF preference is stored locally in your browser
   (`chrome.storage.local`). It never leaves your device.

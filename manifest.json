@@ -5,6 +5,7 @@
   "description": "Auto-translates Discord messages to English in real time, including new incoming messages. By HYAIPE — open source on GitHub.",
   "author": { "email": "hyaipe.io@gmail.com" },
   "homepage_url": "https://github.com/HYAIPE/DiscordTranslator",
+  "minimum_chrome_version": "100",
   "permissions": ["storage"],
   "host_permissions": ["https://translate.googleapis.com/*"],
   "background": {

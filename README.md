@@ -30,6 +30,10 @@ Chrome's built-in page translation is one-shot: the moment a new message arrives
 
 ## 📦 Installation
 
+### Chrome Web Store
+
+*Coming soon.*
+
 ### From source (Developer mode)
 
 1. Clone this repository:

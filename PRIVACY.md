@@ -39,7 +39,7 @@ and are discarded when the browser closes or the extension is unloaded.
 ## Open source
 
 The complete source code is publicly available for inspection at
-<https://github.com/HYAIPE/DiscordTranslator>.
+<https://github.com/HYAIPE/Auto-Translator-for-Discord>.
 
 ## Changes to this policy
 
@@ -49,5 +49,5 @@ date.
 ## Contact
 
 Questions or concerns: open an issue at
-<https://github.com/HYAIPE/DiscordTranslator/issues> or email
+<https://github.com/HYAIPE/Auto-Translator-for-Discord/issues> or email
 <hyaipe.io@gmail.com>.

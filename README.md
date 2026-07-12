@@ -38,7 +38,7 @@ Chrome's built-in page translation is one-shot: the moment a new message arrives
 
 1. Clone this repository:
    ```
-   git clone https://github.com/HYAIPE/DiscordTranslator.git
+   git clone https://github.com/HYAIPE/Auto-Translator-for-Discord.git
    ```
 2. Open `chrome://extensions` in Chrome.
 3. Enable **Developer mode** (top-right toggle).
@@ -75,7 +75,7 @@ The content script tracks each text node's original and translated value, so Rea
 
 ## 🤝 Contributing
 
-Contributions are welcome! Feel free to [open an issue](https://github.com/HYAIPE/DiscordTranslator/issues) or submit a pull request.
+Contributions are welcome! Feel free to [open an issue](https://github.com/HYAIPE/Auto-Translator-for-Discord/issues) or submit a pull request.
 
 ## 📄 License
 

@@ -54,7 +54,7 @@ in your browser. The extension runs exclusively on discord.com.
 OPEN SOURCE
 
 The complete source code is available at
-https://github.com/HYAIPE/DiscordTranslator — issues and contributions
+https://github.com/HYAIPE/Auto-Translator-for-Discord — issues and contributions
 welcome. Built by HYAIPE.
 
 NOTE
@@ -118,7 +118,7 @@ fetched as JSON; no external scripts or wasm are loaded or executed.)
 **Privacy policy URL**
 
 ```
-https://github.com/HYAIPE/DiscordTranslator/blob/main/PRIVACY.md
+https://github.com/HYAIPE/Auto-Translator-for-Discord/blob/main/PRIVACY.md
 ```
 
 ## Distribution tab
